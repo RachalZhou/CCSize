@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CCSize_Example' do
+  pod 'CCSize', :path => '../'
+
+  target 'CCSize_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
