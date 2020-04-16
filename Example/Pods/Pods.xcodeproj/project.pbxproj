@@ -34,7 +34,7 @@
 		30EFD6453A9BFA52301B0969C5ED2074 /* CCSize-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCSize-prefix.pch"; sourceTree = "<group>"; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		48D79B312565BD6CE2F28B7ECF57C582 /* Pods_CCSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CCSize_Example.framework; path = "Pods-CCSize_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D79B312565BD6CE2F28B7ECF57C582 /* Pods_CCSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCSize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD98FC3A80F2714D88B3B5813962F2A /* Pods-CCSize_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CCSize_Example.modulemap"; sourceTree = "<group>"; };
 		51EFF40014E634C801A69BF7E0096996 /* CCSize-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCSize-dummy.m"; sourceTree = "<group>"; };
 		7251EFEA8373FE213E7E0C73860F8D9D /* CCSize.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCSize.debug.xcconfig; sourceTree = "<group>"; };
@@ -42,17 +42,16 @@
 		7F53E686F12DAC51BC61073EB50B3563 /* CCSize-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCSize-Info.plist"; sourceTree = "<group>"; };
 		7F8066ACE379151386271374907D2FD9 /* CCSize.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCSize.release.xcconfig; sourceTree = "<group>"; };
 		9C81D55624996B4D5B50A01A0888D7BC /* Pods-CCSize_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CCSize_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A38702C85A8AFAB6A302C11EA5BDD86D /* CCSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CCSize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A38702C85A8AFAB6A302C11EA5BDD86D /* CCSize.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CCSize.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A56364DC51664712D542A699538F284E /* CCSize-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCSize-umbrella.h"; sourceTree = "<group>"; };
-		AC8286DC1E10FAAE271CC8C507B0D59E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		B008B3A88CF927A2BDA34C58EFB3317F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AC8286DC1E10FAAE271CC8C507B0D59E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BA1655B0423AF8EB2F52A7475618F905 /* Pods-CCSize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CCSize_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BEBBF7D224C9F5165BFB157583BC1A94 /* Pods-CCSize_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CCSize_Example-umbrella.h"; sourceTree = "<group>"; };
 		C4DDDFA6D215691555ABE1CD5FD4B6F7 /* CCSize.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCSize.modulemap; sourceTree = "<group>"; };
 		DC21E34CCDB77AC646FBED2DEE03F2D7 /* Pods-CCSize_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CCSize_Example-dummy.m"; sourceTree = "<group>"; };
 		F322C02791AAF294DA827170F6E59490 /* CCSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CCSize.swift; path = CCSize/Classes/CCSize.swift; sourceTree = "<group>"; };
-		FBD3835DA2AA7524EAF07AAE7D6DF566 /* CCSize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCSize.framework; path = CCSize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD3835DA2AA7524EAF07AAE7D6DF566 /* CCSize.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CCSize.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +119,6 @@
 			children = (
 				A38702C85A8AFAB6A302C11EA5BDD86D /* CCSize.podspec */,
 				AC8286DC1E10FAAE271CC8C507B0D59E /* LICENSE */,
-				B008B3A88CF927A2BDA34C58EFB3317F /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -500,8 +498,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

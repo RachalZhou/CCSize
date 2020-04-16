@@ -42,7 +42,6 @@
 		87C755B2AD6E7E940C73AF1C /* Pods-CCSize_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCSize_Example.release.xcconfig"; path = "Target Support Files/Pods-CCSize_Example/Pods-CCSize_Example.release.xcconfig"; sourceTree = "<group>"; };
 		931D5650345AAF55596E7012 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A8B39B7EDE7575C16E1A8106 /* Pods_CCSize_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCSize_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF747C5C31A76703D0CE97BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				3C06D3D8EA93FF08906C85B3 /* CCSize.podspec */,
-				FF747C5C31A76703D0CE97BB /* README.md */,
 				931D5650345AAF55596E7012 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
