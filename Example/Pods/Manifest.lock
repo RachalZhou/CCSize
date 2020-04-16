@@ -1,0 +1,16 @@
+PODS:
+  - CCSize (0.1.0)
+
+DEPENDENCIES:
+  - CCSize (from `../`)
+
+EXTERNAL SOURCES:
+  CCSize:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CCSize: 2ba60fcf0200a0aef8d3f7817588b8f49bc9262a
+
+PODFILE CHECKSUM: 80e70b9fb74e1e53af75cdb637be37036e7d86a2
+
+COCOAPODS: 1.9.1

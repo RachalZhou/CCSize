@@ -1,0 +1,6 @@
+framework module CCSize {
+  umbrella header "CCSize-umbrella.h"
+
+  export *
+  module * { export * }
+}
