@@ -1,4 +1,5 @@
 # CCSize
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/RachalZhou/CCSize.svg?style=flat)](https://travis-ci.org/RachalZhou/CCSize)
 [![Version](https://img.shields.io/cocoapods/v/CCSize.svg?style=flat)](https://cocoapods.org/pods/CCSize)
@@ -27,3 +28,6 @@ RachalZhou, zrcrachal@gmail.com
 ## License
 
 CCSize is available under the MIT license. See the LICENSE file for more info.
+=======
+Normal size for iOS.
+>>>>>>> e1681ceef978128e1b30b53071ab31c96e60001a
