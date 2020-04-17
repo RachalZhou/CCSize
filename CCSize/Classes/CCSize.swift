@@ -9,8 +9,8 @@
 import UIKit
 
 public enum ScreenOrientation {
-    case landscape
-    case portrait
+    case landscape  // 横屏
+    case portrait   // 竖屏
 }
 
 public struct Screen {
@@ -90,6 +90,5 @@ public func CCFloat(_ n: CGFloat) -> CGFloat {
 ///   - width: width of size
 ///   - height: height of size
 public func CCRect(x: CGFloat, y: CGFloat, width: CGFloat, height: CGFloat) -> CGRect {
-//    return RectAdapter(x, y, width, height)
     return CGRect(x: CCFloat(x), y: CCFloat(y), width: CCFloat(width), height: CCFloat(height))
 }

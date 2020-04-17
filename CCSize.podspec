@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CCSize'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Normal sizes for iOS development.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,8 @@ TODO: You can use normal sizes about Screen, NavBar, TabBar, HomeButton in iOS d
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'CCSize/Classes/**/*'
-  s.public_header_files = 'Pod/Classes/**/*.h'
+#  s.public_header_files = 'Pod/Classes/**/*.h'
   
   s.frameworks = 'UIKit'
+  s.swift_versions = '5.0'
 end
