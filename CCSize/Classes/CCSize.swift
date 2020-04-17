@@ -44,42 +44,42 @@ public struct Screen {
     
     /// size of iPhone X/XS/11 Pro
     private static func sizeFor58Inch() -> CGSize {
-        return CGSize(width: 375, height: 812)
+        return CGSize(width: 375.0, height: 812.0)
     }
 
     /// size of iPhone XR/11
     private static func sizeFor61Inch() -> CGSize {
-        return CGSize(width: 414, height: 896)
+        return CGSize(width: 414.0, height: 896.0)
     }
 
     /// size of iPhone XS Max/11 Pro Max
     private static func sizeFor65Inch() -> CGSize {
-        return CGSize(width: 414, height: 896)
+        return CGSize(width: 414.0, height: 896.0)
     }
 }
 
 public struct HomeButton {
-    public static let height = Screen.isFullScreenIPhone ? 34 : 0
+    public static let height: CGFloat = Screen.isFullScreenIPhone ? 34.0 : 0.0
 }
 
 public struct TabBar {
-    public static let height = Screen.isFullScreenIPhone ? 83 : 49
+    public static let height: CGFloat = Screen.isFullScreenIPhone ? 83.0 : 49.0
 }
 
 public struct StatusBar {
-    public static let height = Screen.isFullScreenIPhone ? 44 : 20
+    public static let height: CGFloat = Screen.isFullScreenIPhone ? 44.0 : 20.0
 }
 
 public struct NavBar {
     // 含电池栏的高度
-    public static let height = StatusBar.height + 44
+    public static let height: CGFloat = StatusBar.height + 44.0
 }
 
 /// distance for size in 414pt width device
 /// - Parameter n: origin distance
 /// - Returns: real device distance
 public func CCFloat(_ n: CGFloat) -> CGFloat {
-    let scale = 414 / Screen.deviceWidth
+    let scale = 414.0 / Screen.deviceWidth
     return n / scale
 }
 

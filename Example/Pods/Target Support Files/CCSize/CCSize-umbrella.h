@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "CCSize.h"
 
 FOUNDATION_EXPORT double CCSizeVersionNumber;
 FOUNDATION_EXPORT const unsigned char CCSizeVersionString[];
