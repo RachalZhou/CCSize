@@ -1,4 +1,5 @@
 # CCSize
+![cover](https://github.com/RachalZhou/CCSize/blob/master/cover.jpg)
 <!-- [![CI Status](https://img.shields.io/travis/RachalZhou/CCSize.svg?style=flat)](https://travis-ci.org/RachalZhou/CCSize) -->
 [![Version](https://img.shields.io/cocoapods/v/CCSize.svg?style=flat)](https://cocoapods.org/pods/CCSize)
 [![Platform](https://img.shields.io/cocoapods/p/CCSize.svg?style=flat)](https://cocoapods.org/pods/CCSize)
