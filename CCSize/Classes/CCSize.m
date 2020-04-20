@@ -37,17 +37,17 @@
 
 // iPhone X/XS/11 Pro
 + (CGSize)sizeFor58Inch {
-    return CGSizeMake(375, 812);
+    return CGSizeMake(375.0, 812.0);
 }
 
 // iPhone XR/11
 + (CGSize)sizeFor61Inch {
-    return CGSizeMake(414, 896);
+    return CGSizeMake(414.0, 896.0);
 }
 
 // iPhone XS Max/11 Pro Max
 + (CGSize)sizeFor65Inch {
-    return CGSizeMake(414, 896);
+    return CGSizeMake(414.0, 896.0);
 }
 
 @end
